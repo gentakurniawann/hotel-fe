@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+.customer {
+  min-height: 100vh;
+  background-color: #fafff6;
+  padding-bottom: 100px;
+}
+.customer .content-header h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #1a4301;
+  margin: 0;
+}
+.customer .profile-bar {
+  padding: 8px 16px;
+  background-color: #1a4301;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 200px;
+}
+.customer a {
+  text-decoration: none;
+}
+.customer .profile-bar:hover {
+  box-shadow: 2px 4px 10px rgba(26, 67, 1, 0.65);
+}
+.customer .profile-bar p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 0;
+  margin-left: 8px;
+}
+.customer .card {
+  margin-top: 12px;
+  border-radius: 16px;
+  border: 0 #ffffff;
+  box-shadow: 1px 1px 10px 4px rgba(217, 217, 217, 0.65);
+  position: static;
+}
+.customer .header input {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #101010;
+  width: 272px;
+}
+.customer .btn-add {
+  color: #1a4301;
+  background-color: #73a942;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 8px;
+  width: 180px;
+}
+.customer .btn-add:hover {
+  background-color: #73a942;
+  box-shadow: 2px 4px 10px rgba(115, 169, 66, 0.65);
+}
+.customer .table {
+  border-collapse: separate;
+}
+.customer thead {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+.customer tbody {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+.customer .btn-edit {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: none;
+  background-color: #85f797;
+  border-radius: 8px;
+}
+.customer .btn-edit:hover {
+  background-color: #7ce18b;
+}
+.customer .btn-delete {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: none;
+  background-color: #ff7f7f;
+  border-radius: 8px;
+}
+.customer .btn-delete:hover {
+  background-color: #e47676;
+}
+.customer-admin .btn-edit {
+  display: none;
+}
+.customer-admin .btn-delete {
+  display: none;
+}
+
+.modal-footer .btn-submit {
+  color: #ffffff;
+  background-color: #73a942;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 8px;
+  height: 40px;
+}
+.modal-footer .btn-submit:hover {
+  color: #ffffff;
+  background-color: #73a942;
+  box-shadow: 2px 4px 10px rgba(115, 169, 66, 0.65);
+}
+
+.modal-header .modalTitle {
+  color: #1a4301;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+.modal-body .form-label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(16, 16, 16, 0.65);
+  margin: 0;
+}
+.modal-body .form-control {
+  width: 100%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #101010;
+  height: 48px;
+  margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .customer .container {
+    padding: 0px 49px 0px 129px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .customer .header {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 16px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .customer .container {
+    padding: 0px 18px 0px 98px;
+  }
+  .customer .profile-bar {
+    width: 40px !important;
+    height: 40px;
+    padding: 4px;
+    justify-content: center;
+  }
+  .customer .profile-bar p {
+    display: none;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .customer .container {
+    padding: 0px 18px 0px 98px;
+  }
+  .customer .content-header h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .customer .profile-bar {
+    width: 40px !important;
+  }
+  .customer .profile-bar p {
+    display: none;
+  }
+  .customer .search input {
+    width: 100%;
+  }
+  .customer .header .btn-add {
+    font-size: 16px;
+    line-height: 24px;
+    width: 140px;
+  }
+}

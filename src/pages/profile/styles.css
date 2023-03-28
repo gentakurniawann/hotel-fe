@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+.profile {
+  height: 100vh;
+  background-color: #fafff6;
+}
+
+.profile .profile-card {
+  background-color: #ffffff;
+  padding: 24px 32px 74px 32px;
+  box-shadow: 2px 4px 10px rgba(217, 217, 217, 0.65);
+  border-radius: 24px;
+  margin-top: 72px;
+}
+
+.profile .profile-card .d-flex {
+  gap: 24px;
+}
+.profile .form-profile {
+  min-width: 240px;
+  width: 617px;
+}
+.profile .profile-card input {
+  width: 100%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #101010;
+  height: 48px;
+  margin-bottom: 8px;
+}
+.profile label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(16, 16, 16, 0.65);
+  margin: 0;
+}
+.profile .profile-card h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #1a4301;
+  margin: 0;
+}
+.profile img {
+  border-radius: 50%;
+}
+.profile .btn-saveProfile {
+  margin-top: 24px;
+  background-color: #73a942;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 8px;
+  height: 48px;
+  width: 100%;
+}
+.profile .btn-saveProfile:hover {
+  border: 2px solid #73a942;
+  color: #73a942;
+}
+@media only screen and (max-width: 1440px) {
+  .profile .container {
+    padding: 0px 39px 0px 99px;
+  }
+}
+@media only screen and (max-width: 993px) {
+  .profile .profile-card .d-flex {
+    flex-direction: column;
+  }
+  .profile .form-profile {
+    width: 240px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .profile .container {
+    padding: 0px 18px 0px 98px;
+  }
+  .profile .profile-card img {
+    width: 120px;
+    height: 120px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .profile .container {
+    padding: 0px 18px 0px 98px;
+  }
+  .profile .content-header h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
